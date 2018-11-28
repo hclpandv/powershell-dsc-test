@@ -1,5 +1,10 @@
 ## powershell-dsc-test
 
+#### Command to quickly config winrm
+```powershell
+winrm quickconfig
+```
+
 #### Command to compile configuration
 ```powershell
 # dot dource ps1 file to Load configuration in the memory
