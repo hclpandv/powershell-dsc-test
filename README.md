@@ -1,5 +1,6 @@
 ## powershell-dsc-test
 
+#### Command to compile configuration
 ```powershell
 # dot dource ps1 file to Load configuration in the memory
 . .\config.ps1
@@ -7,7 +8,7 @@
 SampleIISInstall
 ```
 
-#### Command to Execure dsc configuration
+#### Command to Execute dsc configuration
 ```powershell
 cd powershell-dsc-test
 Start-DscConfiguration -Path .\SampleIISInstall -Wait -Force -Verbose
